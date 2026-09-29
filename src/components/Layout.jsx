@@ -16,9 +16,6 @@ function Layout() {
             <Link to="/refer">Refer & Earn</Link>
             <Link to="/insights">Insights</Link>
           </div>
-          <div>
-            <button className="btn btn-primary" style={{borderRadius: '50px', background: 'transparent', color: 'var(--primary-color)', border: '1px solid var(--primary-color)'}}>Book Free Call 📞</button>
-          </div>
         </div>
       </nav>
 
