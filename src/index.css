@@ -1370,3 +1370,304 @@ a {
     width: 100%;
   }
 }
+
+/* ========================================= */
+/* About Page Specific Styles */
+/* ========================================= */
+
+.about-hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+/* 2. Stats Section */
+.about-stats-section {
+  padding: 5rem 0;
+  background-color: white;
+}
+
+.stats-top-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  margin-bottom: 4rem;
+}
+
+.section-badge-outline {
+  display: inline-block;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid #3b82f6;
+  color: #3b82f6;
+  border-radius: 50px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.stats-left h2 {
+  font-size: 3.5rem;
+  line-height: 1.1;
+  color: #000;
+  letter-spacing: -1px;
+}
+
+.lead-text {
+  font-size: 1.1rem;
+  color: #000;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+.stats-right p {
+  color: #475569;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.benefits-checklist {
+  list-style: none;
+  padding: 0;
+  margin-top: 2rem;
+}
+
+.benefits-checklist li {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+  color: #000;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.check-icon {
+  color: #22c55e;
+  font-weight: bold;
+  background: #dcfce7;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 0.75rem;
+}
+
+.stats-bottom-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+  border-top: 1px solid #e2e8f0;
+  padding-top: 4rem;
+}
+
+.stat-item h3 {
+  font-size: 3.5rem;
+  color: #000;
+  margin-bottom: 0.5rem;
+}
+
+.stat-item p {
+  color: #64748b;
+  font-size: 0.95rem;
+}
+
+/* 3. Commitment Section */
+.commitment-section {
+  padding: 5rem 0;
+  background-color: #f6f5f0;
+}
+
+.commitment-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.commitment-header h2 {
+  font-size: 3.5rem;
+  line-height: 1.2;
+  color: #000;
+  margin-bottom: 1.5rem;
+}
+
+.commitment-header p {
+  color: #475569;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.commitment-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+.commit-card {
+  background: white;
+  border-radius: 20px;
+  padding: 2.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
+}
+
+.commit-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+  font-size: 1.25rem;
+}
+
+.blue-icon {
+  background-color: #1d4ed8;
+  color: white;
+}
+
+.commit-card h3 {
+  font-size: 1.2rem;
+  color: #000;
+  margin-bottom: 1rem;
+}
+
+.commit-card p {
+  color: #475569;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* 4. Journey Section */
+.journey-section {
+  padding: 6rem 0;
+  background-color: white;
+}
+
+.journey-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.journey-header h2 {
+  font-size: 3.5rem;
+  line-height: 1.2;
+  color: #000;
+  margin-bottom: 1.5rem;
+}
+
+.journey-header p {
+  color: #475569;
+}
+
+.journey-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.journey-image-wrapper {
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.journey-image-wrapper img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.journey-text-box {
+  background-color: #f8fafc;
+  border-radius: 20px;
+  padding: 3.5rem;
+}
+
+.section-badge-filled {
+  background: #e2e8f0;
+  color: #0f172a;
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 1.5rem;
+}
+
+.journey-text-box h3 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  color: #000;
+  margin-bottom: 1.5rem;
+}
+
+.journey-text-box p {
+  color: #475569;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+/* 5. Vision and Mission */
+.vision-mission-section {
+  padding: 5rem 0;
+  background-color: white;
+}
+
+.vm-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.vm-card {
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 20px;
+  padding: 3.5rem;
+  box-shadow: 0 10px 20px -5px rgba(0,0,0,0.05);
+}
+
+.vm-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.vm-icon {
+  font-size: 2.5rem;
+  color: #1d4ed8;
+}
+
+.vm-card h3 {
+  font-size: 2.5rem;
+  color: #000;
+}
+
+.vm-card p {
+  color: #475569;
+  line-height: 1.7;
+  font-size: 1.05rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .stats-top-grid, .journey-content, .vm-grid {
+    grid-template-columns: 1fr;
+  }
+  .commitment-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .stats-bottom-row {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .commitment-grid {
+    grid-template-columns: 1fr;
+  }
+}
