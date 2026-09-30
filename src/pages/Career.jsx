@@ -58,7 +58,7 @@ function Career() {
           <div className="icon-box" style={{display: 'flex', gap: '20px'}}>
             <span role="img" aria-label="briefcase">💼</span>
             <span role="img" aria-label="growth">📈</span>
-            <span role="img" aria-label="handshake">🤝</span>
+
           </div>
         </div>
       </section>
