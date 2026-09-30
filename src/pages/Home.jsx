@@ -94,22 +94,6 @@ function Home() {
         </div>
       </section>
       
-      {/* Second Banner Section - Rotating Banners */}
-      <section className="rotating-banner-section">
-        <div className="container">
-          <div className="sec-slideshow-container">
-            {secondaryBanners.map((img, index) => (
-              <img 
-                key={index}
-                src={img} 
-                alt={`Feature Banner ${index + 1}`} 
-                className={`sec-banner-slide ${index === currentSecBannerIndex ? 'active' : ''}`}
-              />
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* 2. Trending Now Section */}
       <section className="trending-section">
         <div className="container">
@@ -146,6 +130,22 @@ function Home() {
                 <li>✓ Insights from top recruiters</li>
               </ul>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Second Banner Section - Rotating Banners */}
+      <section className="rotating-banner-section">
+        <div className="container">
+          <div className="sec-slideshow-container">
+            {secondaryBanners.map((img, index) => (
+              <img 
+                key={index}
+                src={img} 
+                alt={`Feature Banner ${index + 1}`} 
+                className={`sec-banner-slide ${index === currentSecBannerIndex ? 'active' : ''}`}
+              />
+            ))}
           </div>
         </div>
       </section>

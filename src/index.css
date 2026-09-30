@@ -630,6 +630,11 @@ a {
   background-color: white;
 }
 
+.live-updates-section .container {
+  max-width: 1520px; 
+  margin: 0 auto;
+}
+
 .live-updates-header {
   display: flex;
   flex-direction: column;
@@ -1541,7 +1546,7 @@ a {
 
 /* 4. Journey Section */
 .journey-section {
-  padding: 6rem 0;
+  padding: 6rem 0 2rem 0;
   background-color: white;
 }
 
@@ -1611,7 +1616,7 @@ a {
 
 /* 5. Vision and Mission */
 .vision-mission-section {
-  padding: 5rem 0;
+  padding: 2rem 0 6rem 0;
   background-color: white;
 }
 
