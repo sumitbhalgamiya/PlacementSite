@@ -18,9 +18,9 @@ function App() {
           <Route path="services" element={<Services />} />
           <Route path="about" element={<AboutUs />} />
           <Route path="career" element={<Career />} />
-          <Route path="contact" element={<SimplePage title="Contact" />} />
-          <Route path="refer" element={<SimplePage title="Refer & Earn" />} />
-          <Route path="insights" element={<SimplePage title="Insights" />} />
+          <Route path="contact" element={<SimplePage title="Contact" subtitle="Get in touch with our team" />} />
+          <Route path="refer" element={<SimplePage title="Refer & Earn" subtitle="Recommend a friend and get rewarded" />} />
+          <Route path="insights" element={<SimplePage title="Insights" subtitle="Latest trends and tips from our experts" />} />
         </Route>
       </Routes>
     </BrowserRouter>

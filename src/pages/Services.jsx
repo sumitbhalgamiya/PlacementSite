@@ -2,13 +2,15 @@ import React from 'react';
 
 function Services() {
   return (
-    <div style={{ paddingTop: '100px' }}>
+    <div style={{ paddingTop: '80px' }}>
+      <div className="container">
+        <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
+          <h2 style={{ fontSize: '2.5rem', color: 'var(--text-dark)' }}>Our Services</h2>
+          <p style={{ color: 'var(--text-light)', marginTop: '1rem' }}>Comprehensive solutions tailored to your needs</p>
+        </div>
+      </div>
       <section className="services" id="services" style={{ marginTop: '2rem' }}>
         <div className="container">
-          <div style={{ textAlign: 'center', marginBottom: '3rem' }}>
-            <h2>Our Services</h2>
-            <p style={{ color: 'var(--text-light)', marginTop: '1rem' }}>Comprehensive solutions tailored to your needs</p>
-          </div>
           <div className="services-grid" style={{ boxShadow: 'none', border: '1px solid #e2e8f0' }}>
             <div className="service-item">
               <div className="service-icon">🛡️</div>
