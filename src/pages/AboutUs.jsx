@@ -8,6 +8,14 @@ import journeyImg from '../assets/Placement5.png';
 function AboutUs() {
   return (
     <div style={{ paddingBottom: '0' }}>
+      <div style={{ paddingTop: '80px' }}>
+        <div className="container">
+          <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
+            <h2 style={{ fontSize: '2.5rem', color: 'var(--text-dark)' }}>About Us</h2>
+            <p style={{ color: 'var(--text-light)', marginTop: '1rem' }}>Bridging the gap between talent and opportunity</p>
+          </div>
+        </div>
+      </div>
       {/* 1. Hero Section */}
       <section className="about-us" id="about">
         <div className="about-left">
