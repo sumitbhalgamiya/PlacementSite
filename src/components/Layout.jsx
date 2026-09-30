@@ -12,9 +12,8 @@ function Layout() {
             <Link to="/services">Services</Link>
             <Link to="/about">About Us</Link>
             <Link to="/career">Career</Link>
-            <Link to="/contact">Contact</Link>
             <Link to="/refer">Refer & Earn</Link>
-
+            <Link to="/contact">Contact</Link>
           </div>
         </div>
       </nav>

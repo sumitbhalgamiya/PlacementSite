@@ -7,6 +7,7 @@ import AboutUs from './pages/AboutUs';
 import SimplePage from './pages/SimplePage';
 import Career from './pages/Career';
 import Contact from './pages/Contact';
+import Refer from './pages/Refer';
 
 import './index.css';
 
@@ -20,7 +21,7 @@ function App() {
           <Route path="about" element={<AboutUs />} />
           <Route path="career" element={<Career />} />
           <Route path="contact" element={<Contact />} />
-          <Route path="refer" element={<SimplePage title="Refer & Earn" subtitle="Recommend a friend and get rewarded" />} />
+          <Route path="refer" element={<Refer />} />
 
         </Route>
       </Routes>
