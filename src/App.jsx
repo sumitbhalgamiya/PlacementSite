@@ -21,7 +21,7 @@ function App() {
           <Route path="career" element={<Career />} />
           <Route path="contact" element={<Contact />} />
           <Route path="refer" element={<SimplePage title="Refer & Earn" subtitle="Recommend a friend and get rewarded" />} />
-          <Route path="insights" element={<SimplePage title="Insights" subtitle="Latest trends and tips from our experts" />} />
+
         </Route>
       </Routes>
     </BrowserRouter>
