@@ -6,9 +6,9 @@ function Career() {
     <div className="career-page">
       <div style={{ paddingTop: '80px' }}>
         <div className="container">
-          <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
+          <div style={{ textAlign: 'center', marginBottom: '0' }}>
             <h2 style={{ fontSize: '2.5rem', color: 'var(--text-dark)' }}>Career</h2>
-            <p style={{ color: 'var(--text-light)', marginTop: '1rem' }}>Join our team and help build the future</p>
+            <p style={{ color: 'var(--text-light)', marginTop: '1rem', marginBottom: '1rem' }}>Join our team and help build the future</p>
           </div>
         </div>
       </div>
