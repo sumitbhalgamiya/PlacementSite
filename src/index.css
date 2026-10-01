@@ -2016,3 +2016,13 @@ img {
     min-width: 140px;
   }
 }
+
+
+/* Responsive Image Fixes */
+.refer-hero-box { height: 350px; }
+.refer-hero-svg { width: 150px; height: 150px; }
+@media (max-width: 768px) {
+  .refer-hero-box { height: 200px !important; }
+  .refer-hero-svg { width: 80px !important; height: 80px !important; }
+  .about-hero-img { max-height: 250px !important; }
+}

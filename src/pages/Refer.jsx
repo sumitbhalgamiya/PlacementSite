@@ -8,8 +8,8 @@ function Refer() {
       <section style={{ backgroundColor: '#111827', color: 'white', padding: '6rem 0' }}>
         <div className="container" style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '3rem' }}>
           <div style={{ flex: '1 1 400px' }}>
-            <div style={{ width: '100%', height: '350px', backgroundColor: '#1e293b', borderRadius: '24px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#60a5fa', border: '1px solid #334155', boxShadow: '0 20px 25px -5px rgba(0,0,0,0.5)' }}>
-              <svg width="150" height="150" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
+            <div className="refer-hero-box" style={{ width: '100%', backgroundColor: '#1e293b', borderRadius: '24px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#60a5fa', border: '1px solid #334155', boxShadow: '0 20px 25px -5px rgba(0,0,0,0.5)' }}>
+              <svg className="refer-hero-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M20 12v10H4V12"></path>
                 <path d="M2 7h20v5H2z"></path>
                 <path d="M12 22V7"></path>
