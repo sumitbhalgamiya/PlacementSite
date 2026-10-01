@@ -75,9 +75,9 @@ function Home() {
       <section className="hero-banner">
         <div className="container banner-content">
           <div className="banner-text">
-            <h1>THE PREMIER PLATFORM FOR <br/><span className="highlight-text">CAREER GROWTH + SKILL MASTERY</span></h1>
-            <p>Browse job vacancies from top global companies hiring freshers and graduates right now. Explore opportunities and apply easily today.</p>
-            <div className="banner-notice">Connect with top-tier companies offering entry-level roles worldwide.</div>
+            <h1>YOUR LAUNCHPAD FOR <span className="highlight-text">CAREER GROWTH</span></h1>
+            <p>Unlock exclusive job opportunities tailored for fresh graduates. Launch your career with industry leaders today.</p>
+            <div className="banner-notice">Explore Global Roles 🚀</div>
           </div>
           <div className="banner-image">
             <div className="slideshow-container">
