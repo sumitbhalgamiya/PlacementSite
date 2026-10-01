@@ -2025,4 +2025,5 @@ img {
   .refer-hero-box { height: 200px !important; }
   .refer-hero-svg { width: 80px !important; height: 80px !important; }
   .about-hero-img { max-height: 250px !important; }
+  .about-right { min-height: auto !important; background: transparent !important; }
 }
